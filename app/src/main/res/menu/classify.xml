@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Pol"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="政治"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Eng"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="英语"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Math"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="数学"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Pro"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="专业课"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Other"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="其他"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Update"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="更新全部内容"
+        app:showAsAction="never" />
+</menu>
