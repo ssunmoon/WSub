@@ -9,12 +9,14 @@ public class SubItem {
         super();
         teacher = "";
         title = "";
+        status = 0;
     }
 
-    public SubItem(String teacher, String title){
+    public SubItem(String teacher, String title, int status){
         super();
         this.teacher = teacher;
         this.title = title;
+        this.status = status;
     }
 
     public String getTeacher() {
