@@ -67,4 +67,9 @@ public class TeachManager {
         return teachList;
     }
 
+    public void deleteAll(){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        db.delete(TBNAME,null,null);
+        db.close();
+    }
 }
